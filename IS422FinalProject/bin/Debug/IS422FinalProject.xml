@@ -1,0 +1,412 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IS422FinalProject
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CLIENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CONSUMPTIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERY_DRIVERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EMPLOYEEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EVENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FISCAL_WEEKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FOOD_ITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICE_ITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.LABOR_COSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.MANAGERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.OCCUPANCYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDER_DETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ROOMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SCHEDULEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SHIFTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.STUDENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SUPPLY_ITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.VENDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CLIENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CONSUMPTIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERY_DRIVERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EMPLOYEERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EVENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FISCAL_WEEKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FOOD_ITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICE_ITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.LABOR_COSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.MANAGERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.OCCUPANCYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDER_DETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ROOMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SCHEDULERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SHIFTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.STUDENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SUPPLY_ITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.VENDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CLIENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.CONSUMPTIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.DELIVERY_DRIVERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EMPLOYEERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.EVENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FISCAL_WEEKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.FOOD_ITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.INVOICE_ITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.LABOR_COSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.MANAGERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.OCCUPANCYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ORDER_DETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.ROOMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SCHEDULERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SHIFTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.STUDENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.SUPPLY_ITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet.VENDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.CLIENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.CONSUMPTIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.DELIVERYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.DELIVERY_DRIVERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.EMPLOYEETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.EVENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.FISCAL_WEEKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.FOOD_ITEMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.INVOICETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.INVOICE_ITEMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.ITEMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.LABOR_COSTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.MANAGERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.OCCUPANCYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.ORDERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.ORDER_DETAILSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.ROOMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.SCHEDULETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.SHIFTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.STUDENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.SUPPLY_ITEMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.VENDORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsApplication1._2013FA422_TeamBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsApplication1._2013FA422_TeamBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsApplication1._2013FA422_TeamBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.UpdateAll(WindowsApplication1._2013FA422_TeamBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WindowsApplication1._2013FA422_TeamBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

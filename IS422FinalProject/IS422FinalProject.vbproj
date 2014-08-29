@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EFC59C3-0493-421C-92C1-035D1C98BFEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>IS422FinalProject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IS422FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IS422FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddManager.Designer.vb">
+      <DependentUpon>AddManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addstudentview.Designer.vb">
+      <DependentUpon>addstudentview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addstudentview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignDriverToDelivery.Designer.vb">
+      <DependentUpon>AssignDriverToDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AssignDriverToDelivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostOfLabor.designer.vb">
+      <DependentUpon>CostOfLabor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CostOfLabor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery Driver.Designer.vb">
+      <DependentUpon>Delivery Driver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery Driver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery Reports.Designer.vb">
+      <DependentUpon>Delivery Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employeesched.Designer.vb">
+      <DependentUpon>employeesched.vb</DependentUpon>
+    </Compile>
+    <Compile Include="employeesched.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventOrder.Designer.vb">
+      <DependentUpon>EventOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fooditemview.Designer.vb">
+      <DependentUpon>fooditemview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fooditemview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodUsageCost.Designer.vb">
+      <DependentUpon>FoodUsageCost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FoodUsageCost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodUsageReport.Designer.vb">
+      <DependentUpon>FoodUsageReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FoodUsageReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceView.designer.vb">
+      <DependentUpon>InvoiceView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFoodOrder.designer.vb">
+      <DependentUpon>NewFoodOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewFoodOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSupplyOrder.designer.vb">
+      <DependentUpon>NewSupplyOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewSupplyOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Occupancy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Occupancy.Designer.vb">
+      <DependentUpon>Occupancy.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RevenueView.designer.vb">
+      <DependentUpon>RevenueView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomInfoInput.Designer.vb">
+      <DependentUpon>RoomInfoInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoomInfoInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_2013FA422_TeamBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_2013FA422_TeamBDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddManager.resx">
+      <DependentUpon>AddManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addstudentview.resx">
+      <DependentUpon>addstudentview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignDriverToDelivery.resx">
+      <DependentUpon>AssignDriverToDelivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostOfLabor.resx">
+      <DependentUpon>CostOfLabor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery Driver.resx">
+      <DependentUpon>Delivery Driver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery Reports.resx">
+      <DependentUpon>Delivery Reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employeesched.resx">
+      <DependentUpon>employeesched.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventOrder.resx">
+      <DependentUpon>EventOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fooditemview.resx">
+      <DependentUpon>fooditemview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodUsageCost.resx">
+      <DependentUpon>FoodUsageCost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodUsageReport.resx">
+      <DependentUpon>FoodUsageReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceView.resx">
+      <DependentUpon>InvoiceView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFoodOrder.resx">
+      <DependentUpon>NewFoodOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSupplyOrder.resx">
+      <DependentUpon>NewSupplyOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Occupancy.resx">
+      <DependentUpon>Occupancy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueView.resx">
+      <DependentUpon>RevenueView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomInfoInput.resx">
+      <DependentUpon>RoomInfoInput.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="_2013FA422_TeamBDataSet.xsc">
+      <DependentUpon>_2013FA422_TeamBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_2013FA422_TeamBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_2013FA422_TeamBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_2013FA422_TeamBDataSet.xss">
+      <DependentUpon>_2013FA422_TeamBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
